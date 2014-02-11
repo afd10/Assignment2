@@ -18,6 +18,13 @@
 		8B650747189808D400D912AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B650746189808D400D912AF /* Default-568h@2x.png */; };
 		8B65074A189808D400D912AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650749189808D400D912AF /* ViewController.m */; };
 		8B65074D189808D400D912AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B65074B189808D400D912AF /* ViewController.xib */; };
+		E877577F18AAB1DE0022EEC2 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = E877577518AAB1DE0022EEC2 /* Apple.m */; };
+		E877578018AAB1DE0022EEC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E877577718AAB1DE0022EEC2 /* InfoPlist.strings */; };
+		E877578118AAB1DE0022EEC2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E877577918AAB1DE0022EEC2 /* ViewController.xib */; };
+		E877578218AAB1DE0022EEC2 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = E877577C18AAB1DE0022EEC2 /* Fruit.m */; };
+		E877578318AAB1DE0022EEC2 /* GrannySmith.m in Sources */ = {isa = PBXBuildFile; fileRef = E877577E18AAB1DE0022EEC2 /* GrannySmith.m */; };
+		E877578618AAB2000022EEC2 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = E877578518AAB2000022EEC2 /* Vegetable.m */; };
+		E877578818AAB38A0022EEC2 /* iOS Simulator Screen shot Feb 11, 2014, 2.37.09 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = E877578718AAB38A0022EEC2 /* iOS Simulator Screen shot Feb 11, 2014, 2.37.09 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,17 @@
 		8B650748189808D400D912AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8B650749189808D400D912AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B65074C189808D400D912AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E877577418AAB1DE0022EEC2 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		E877577518AAB1DE0022EEC2 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		E877577818AAB1DE0022EEC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E877577A18AAB1DE0022EEC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ViewController.xib; sourceTree = "<group>"; };
+		E877577B18AAB1DE0022EEC2 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		E877577C18AAB1DE0022EEC2 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		E877577D18AAB1DE0022EEC2 /* GrannySmith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrannySmith.h; sourceTree = "<group>"; };
+		E877577E18AAB1DE0022EEC2 /* GrannySmith.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrannySmith.m; sourceTree = "<group>"; };
+		E877578418AAB2000022EEC2 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vegetable.h; path = "../../../Desktop/Assignment2-master/Fruit/Vegetable.h"; sourceTree = "<group>"; };
+		E877578518AAB2000022EEC2 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vegetable.m; path = "../../../Desktop/Assignment2-master/Fruit/Vegetable.m"; sourceTree = "<group>"; };
+		E877578718AAB38A0022EEC2 /* iOS Simulator Screen shot Feb 11, 2014, 2.37.09 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot Feb 11, 2014, 2.37.09 PM.png"; path = "../../../Desktop/iOS Simulator Screen shot Feb 11, 2014, 2.37.09 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,16 @@
 		8B650736189808D400D912AF /* Fruit */ = {
 			isa = PBXGroup;
 			children = (
+				E877578718AAB38A0022EEC2 /* iOS Simulator Screen shot Feb 11, 2014, 2.37.09 PM.png */,
+				E877578418AAB2000022EEC2 /* Vegetable.h */,
+				E877578518AAB2000022EEC2 /* Vegetable.m */,
+				E877577418AAB1DE0022EEC2 /* Apple.h */,
+				E877577518AAB1DE0022EEC2 /* Apple.m */,
+				E877577618AAB1DE0022EEC2 /* en.lproj */,
+				E877577B18AAB1DE0022EEC2 /* Fruit.h */,
+				E877577C18AAB1DE0022EEC2 /* Fruit.m */,
+				E877577D18AAB1DE0022EEC2 /* GrannySmith.h */,
+				E877577E18AAB1DE0022EEC2 /* GrannySmith.m */,
 				8B65073F189808D400D912AF /* AppDelegate.h */,
 				8B650740189808D400D912AF /* AppDelegate.m */,
 				8B650748189808D400D912AF /* ViewController.h */,
@@ -105,6 +133,15 @@
 				8B650746189808D400D912AF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E877577618AAB1DE0022EEC2 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E877577718AAB1DE0022EEC2 /* InfoPlist.strings */,
+				E877577918AAB1DE0022EEC2 /* ViewController.xib */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +195,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E877578118AAB1DE0022EEC2 /* ViewController.xib in Resources */,
 				8B65073B189808D400D912AF /* InfoPlist.strings in Resources */,
+				E877578018AAB1DE0022EEC2 /* InfoPlist.strings in Resources */,
 				8B650743189808D400D912AF /* Default.png in Resources */,
 				8B650745189808D400D912AF /* Default@2x.png in Resources */,
 				8B650747189808D400D912AF /* Default-568h@2x.png in Resources */,
+				E877578818AAB38A0022EEC2 /* iOS Simulator Screen shot Feb 11, 2014, 2.37.09 PM.png in Resources */,
 				8B65074D189808D400D912AF /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E877578218AAB1DE0022EEC2 /* Fruit.m in Sources */,
+				E877577F18AAB1DE0022EEC2 /* Apple.m in Sources */,
+				E877578318AAB1DE0022EEC2 /* GrannySmith.m in Sources */,
 				8B65073D189808D400D912AF /* main.m in Sources */,
 				8B650741189808D400D912AF /* AppDelegate.m in Sources */,
+				E877578618AAB2000022EEC2 /* Vegetable.m in Sources */,
 				8B65074A189808D400D912AF /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +238,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B65074C189808D400D912AF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		E877577718AAB1DE0022EEC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E877577818AAB1DE0022EEC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E877577918AAB1DE0022EEC2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E877577A18AAB1DE0022EEC2 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -298,6 +358,7 @@
 				8B650752189808D500D912AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
